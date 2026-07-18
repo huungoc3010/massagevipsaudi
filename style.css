@@ -199,10 +199,7 @@ font-weight:700;
 50%{transform:scale(1.06);}
 100%{transform:scale(1);}
 }
-.whatsapp i{
-font-size:55px;
-color:#fff;
-}
+
 @media(max-width:900px){
 nav{
 display:none;
