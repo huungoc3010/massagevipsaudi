@@ -179,6 +179,11 @@ grid-template-columns:1fr;
 .features{
 grid-template-columns:1fr;
 }
+  .logo img{
+    width:130px;
+    height:auto;
+    display:block;
+}
 h2{
 font-size:36px;
 }
