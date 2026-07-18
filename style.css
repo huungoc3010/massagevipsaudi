@@ -44,7 +44,7 @@ linear-gradient(
 rgba(0,0,0,.55),
 rgba(0,0,0,.8)
 ),
-url("https://images.pexels.com/photos/6628592/pexels-photo-6628592.jpeg");
+url(banner.jpg);
 background-size:cover;
 background-position:center;
 display:flex;
