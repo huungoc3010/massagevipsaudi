@@ -179,8 +179,3 @@ grid-template-columns:1fr;
 .features{
 grid-template-columns:1fr;
 }
-  .logo img{
-    width:60px;
-    height:auto;
-    display:block;
-}
