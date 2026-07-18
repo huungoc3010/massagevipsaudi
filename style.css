@@ -159,10 +159,12 @@ bottom:20px;
 display:flex;
 align-items:center;
 gap:12px;
-padding:14px 22px;
+padding:18px 34px;
 background:#25D366;
 color:#fff;
 border-radius:60px;
+min-width:300px;
+min-height:80px;
 text-decoration:none;
 box-shadow:0 10px 35px rgba(37,211,102,.45);
 z-index:9999;
@@ -185,12 +187,12 @@ line-height:1.1;
 }
 
 .wa-text .small{
-font-size:13px;
+font-size:18px;
 opacity:.9;
 }
 
 .wa-text .big{
-font-size:24px;
+font-size:34px;
 font-weight:700;
 }
 
