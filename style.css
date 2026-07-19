@@ -37,13 +37,13 @@ nav a:hover{
 color:#d4af37;
 }
 .hero{
-height:110vh;
+height:100vh;
 background:
 linear-gradient(
 rgba(0,0,0,.15),
 rgba(0,0,0,.35)
 ),
-url(banner.jpg);
+url(banner1.png);
 background-size:cover;
 background-position:center;
 display:flex;
