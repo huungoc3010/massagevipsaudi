@@ -19,14 +19,6 @@ backdrop-filter:blur(12px);
 -webkit-backdrop-filter:blur(12px);
 z-index:999;
 }
-.header-container{
-max-width:1200px;
-margin:auto;
-padding:15px 20px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
 .logo{
 font-family:'Cormorant Garamond',serif;
 font-size:32px;
@@ -210,7 +202,18 @@ font-weight:700;
 100%{transform:scale(1);}
 }
 
-
+@media(max-width:900px){
+nav{
+display:none;
+}
+.logo{
+font-size:25px;
+}
+.hero h1{
+font-size:42px;
+}
+.service-grid{
+grid-template-columns:1fr;
 }
 .features{
 grid-template-columns:1fr;
@@ -225,7 +228,6 @@ background:#111;
 
 }
 
-
 .reviews{
 
 display:grid;
@@ -237,8 +239,6 @@ gap:25px;
 margin-top:40px;
 
 }
-
-
 
 .review-card{
 
@@ -252,8 +252,6 @@ border:1px solid #333;
 
 }
 
-
-
 .review-card h3{
 
 color:#d4af37;
@@ -262,88 +260,39 @@ margin-bottom:15px;
 
 }
 
-
-
 .review-card p{
 
 color:#ddd;
 
 }
-@media (max-width:900px){
 
-nav{
-display:none;
-}
+@media(max-width:900px){
 
-.logo{
-font-size:24px;
-}
-
-.hero{
-height:auto;
-min-height:100vh;
-padding:120px 20px 60px;
-}
-
-.hero h1{
-font-size:42px;
-line-height:1.2;
-}
-
-.hero p{
-font-size:18px;
-}
-
-section{
-padding:60px 20px;
-}
-
-h2{
-font-size:34px;
-}
-
-.service-grid,
-.features,
 .reviews{
+
 grid-template-columns:1fr;
+@keyframes pulse{
+
+0%{
+transform:scale(1);
+box-shadow:0 0 0 0 rgba(37,211,102,.8);
 }
 
-.service-card img{
-height:220px;
+70%{
+transform:scale(1.12);
+box-shadow:0 0 0 25px rgba(37,211,102,0);
 }
 
-.btn{
-display:block;
-width:100%;
-max-width:340px;
-margin:20px auto;
-font-size:20px;
-padding:18px;
+100%{
+transform:scale(1);
+box-shadow:0 0 0 0 rgba(37,211,102,0);
 }
 
-.whatsapp{
-left:15px;
-right:15px;
-bottom:15px;
-min-width:auto;
-min-height:70px;
-padding:14px 20px;
-}
-
-.whatsapp i{
-font-size:34px;
-}
-
-.wa-text .small{
-font-size:14px;
-}
-
-.wa-text .big{
-font-size:24px;
 }
 
 .whatsapp:hover{
-transform:scale(1.08);
+transform:scale(1.18);
 }
 
 }
+
