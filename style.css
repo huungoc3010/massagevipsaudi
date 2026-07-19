@@ -228,6 +228,7 @@ background:#111;
 
 }
 
+
 .reviews{
 
 display:grid;
@@ -239,6 +240,8 @@ gap:25px;
 margin-top:40px;
 
 }
+
+
 
 .review-card{
 
@@ -252,6 +255,8 @@ border:1px solid #333;
 
 }
 
+
+
 .review-card h3{
 
 color:#d4af37;
@@ -260,11 +265,15 @@ margin-bottom:15px;
 
 }
 
+
+
 .review-card p{
 
 color:#ddd;
 
 }
+
+
 
 @media(max-width:900px){
 
@@ -296,3 +305,4 @@ transform:scale(1.18);
 
 }
 
+}
