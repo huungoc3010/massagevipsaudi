@@ -43,7 +43,7 @@ linear-gradient(
 rgba(0,0,0,.15),
 rgba(0,0,0,.35)
 ),
-url(banner.jpg);
+url(banner1.png);
 background-size:cover;
 background-position:center;
 display:flex;
