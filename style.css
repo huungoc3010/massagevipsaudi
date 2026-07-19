@@ -19,6 +19,14 @@ backdrop-filter:blur(12px);
 -webkit-backdrop-filter:blur(12px);
 z-index:999;
 }
+.header-container{
+max-width:1200px;
+margin:auto;
+padding:15px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
 .logo{
 font-family:'Cormorant Garamond',serif;
 font-size:32px;
