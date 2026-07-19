@@ -101,6 +101,18 @@
     .wa-text .big{
         font-size:28px;
     }
+    .hero{
+    height:95vh;
+    background:
+    linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.35)),
+    url("banner1.png");
+    background-size:95%;
+    background-repeat:no-repeat;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
     .whatsapp i{
         font-size:36px;
